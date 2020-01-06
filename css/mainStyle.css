@@ -1,8 +1,13 @@
 .media-icon{
     height: 40px;
     font-size: 2em;
+    transition: 0.5s;
 }
 
 img.media-icon{
     margin-bottom: 13px;
+}
+
+.media-icon:hover{
+    opacity: 0.8;
 }

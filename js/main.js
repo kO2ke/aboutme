@@ -31,8 +31,10 @@ function setText(){
     });
 
     $.each(config.contact, function (indexInArray, valueOfElement) { 
-         mediaArea = $("<a class='m-2 d-inline-block' style='height:40px;'>").attr("href",valueOfElement.url);
-         mediaArea.html($(valueOfElement.icon).addClass("media-icon shadow-lg"));
+         mediaArea = $("<a class='m-2 d-inline-block' style='height:40px;'>")
+            .attr("href",valueOfElement.url);
+            
+         mediaArea.html($(valueOfElement.icon).addClass("media-icon"));
          $(".description>.contact").append(mediaArea);
     });
 }
