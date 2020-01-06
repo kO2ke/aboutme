@@ -9,7 +9,7 @@ const config =
     ],
     contact:
     [
-        {icon:"<i class='fab fa-twitter-square text-info'></i>",url:"desunokora527@gmail.com"},
+        {icon:"<i class='fab fa-twitter-square text-info'></i>",url:"https://twitter.com/k_kO2ke"},
         {icon:"<img src='./img/wantedly_mark.png'>",url:"https://www.wantedly.com/users/18046650"},
         {icon:"<i class='fab fa-facebook-square'></i>",url:"https://www.facebook.com/key.key.key.ring"}
     ]
